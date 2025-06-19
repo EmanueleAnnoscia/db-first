@@ -1,0 +1,24 @@
+books
+
+id - UNSIGNED BIGINT - PRIMARY KEY (UNIQUE, NOT NULL) - AUTO_INCREMENT
+produttore - VARCHAR(255) - NOT NULL - NOT NULL
+modello - VARCHAR(255) - NOT NULL - NOT NULL
+colore - VARCHAR(255) - NULL
+tipologia_automobile - VARCHAR(255) - NULL (non l'ho posizionata nel modello poichè uno stesso modello può avere più tipologie ad esempio il 4x4)
+anno_produzione - YEAR - NULL
+cavalli - UNSIGNED SMALLINT - NULL
+prima_immatricolazione - DATE - NULL
+codice_immmatricolazione - VARCHAR(255) - UNIQUE - NULL
+kilometri_percorsi - UNSIGNED MEDIUMINT - NULL
+assicurazione - UNSIGNED TINYINT - NULL (0)
+garanzia - UNSIGNED TINYINT- NULL (0)
+(stock - UNSIGNED SMALLINT - NULL) 
+peso_kg - UNSINGED MEDIUMINT - NULL
+prezzo_vendita - UNSINGED DECIMAL(8,2) - NULL
+provenienza - VARCHAR(255) - NULL
+immagini_presentazione - TEXT - NULL
+voto - FLOAT(3,1) - NULL
+condizioni - TEXT - NULL
+descrizione - MEDIUMTEXT - NULL
+created_at - DATETIME - NOT NULL
+updated_at - DATETIME - NOT NULL
