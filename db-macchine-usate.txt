@@ -1,4 +1,4 @@
-books
+Macchina Usata
 
 id - UNSIGNED BIGINT - PRIMARY KEY (UNIQUE, NOT NULL) - AUTO_INCREMENT
 produttore - VARCHAR(255) - NOT NULL - NOT NULL
