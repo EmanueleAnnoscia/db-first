@@ -1,8 +1,8 @@
 Macchina Usata
 
 id - UNSIGNED BIGINT - PRIMARY KEY (UNIQUE, NOT NULL) - AUTO_INCREMENT
-produttore - VARCHAR(255) - NOT NULL - NOT NULL
-modello - VARCHAR(255) - NOT NULL - NOT NULL
+produttore - VARCHAR(255) - NULL 
+modello - VARCHAR(255) -  NULL 
 colore - VARCHAR(255) - NULL
 tipologia_automobile - VARCHAR(255) - NULL (non l'ho posizionata nel modello poichè uno stesso modello può avere più tipologie ad esempio il 4x4)
 anno_produzione - YEAR - NULL
@@ -20,5 +20,5 @@ immagini_presentazione - TEXT - NULL
 voto - FLOAT(3,1) - NULL
 condizioni - TEXT - NULL
 descrizione - MEDIUMTEXT - NULL
-created_at - DATETIME - NOT NULL
-updated_at - DATETIME - NOT NULL
+created_at - DATETIME -  NULL
+updated_at - DATETIME -  NULL
