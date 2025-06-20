@@ -7,6 +7,7 @@ colore - VARCHAR(255) - NULL
 tipologia_automobile - VARCHAR(255) - NULL (non l'ho posizionata nel modello poichè uno stesso modello può avere più tipologie ad esempio il 4x4)
 anno_produzione - YEAR - NULL
 cavalli - UNSIGNED SMALLINT - NULL
+tipologia_carburante VARCHAR NULL
 prima_immatricolazione - DATE - NULL
 codice_immmatricolazione - VARCHAR(255) - UNIQUE - NULL
 kilometri_percorsi - UNSIGNED MEDIUMINT - NULL
